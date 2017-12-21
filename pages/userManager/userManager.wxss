@@ -1,0 +1,61 @@
+/**index.wxss**/  
+.rootUser {
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+}
+.swiper-tab{  
+	width: 100%;  
+	height: 50px;
+	line-height: 50px;
+	text-align: center;  
+	border-bottom: 1rpx solid #eee;
+}  
+.swiper-tab-list{
+	color: #777;  
+	font-size: 14px;  
+    width: 33.33%; 
+	height: 48px; 
+	display: inline-block;  
+}  
+.swiper-tab-list.active{
+	color: #3a8ee6;  
+    border-bottom: 3px solid #3a8ee6;
+} 
+/* 用户列表样式  */
+.scroll-view-item{
+  height: 100px;
+}
+.header {
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+	background-color: #c2cfea;
+}
+
+.header .role {
+	color: #5a5e66;
+	font-size: 12px;
+	padding: 0 5px;
+}
+
+.header .handle {
+	float: right;
+}
+
+.scroll-view-item .body {
+	display: flex;
+	height: 70px;
+	padding: 0 10px;
+	flex-direction: column;
+}
+.scroll-view-item .body .row{
+	flex: 1;
+	line-height: 35px;
+	display: flex;
+	flex-direction: row;
+}
+.scroll-view-item .body .row > view {
+	flex: 1;
+	font-size: 12px;
+}

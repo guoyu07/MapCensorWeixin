@@ -1,0 +1,15 @@
+{
+	"pages": [
+		"pages/login/login",
+		"pages/case/case",
+		"pages/task/task",
+		"pages/register/register",
+		"pages/userManager/userManager"
+	],
+	"window":{
+		"backgroundTextStyle":"light",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "审图平台",
+		"navigationBarTextStyle":"black"
+	}
+}

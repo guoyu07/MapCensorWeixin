@@ -1,0 +1,12 @@
+<!--logs.wxml-->
+<view class="map-container">
+   <map style='height:100vh;width:100%' id='myMap' longitude="113.324520" latitude="23.099994">
+	<cover-view class="case-warp">
+		<view wx:for="{{caseResult.data}}" class="caseList" bindtap="showDetail" data-idIndex="">
+			<view class='title'>{{item.caseSnap}}</view>
+			<view class='desc'>{{item.caseDesc}}</view> 
+		</view>
+	</cover-view>
+   </map> 
+</view>
+ 

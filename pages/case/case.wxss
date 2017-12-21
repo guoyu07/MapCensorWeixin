@@ -1,0 +1,19 @@
+.case-warp {
+  position: relative;
+  top: 57%;
+  flex-direction:column;
+  display: flex;
+}
+.case-warp .caseList {
+	display: block;
+	height: 70px;
+	background: #fff;
+	padding: 5px;
+	border-bottom: 1px solid #ccc;
+}
+.case-warp .caseList .title {
+	font-size: 18px;
+}
+.case-warp .caseList .desc {
+	font-size: 14px;
+}
