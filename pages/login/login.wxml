@@ -1,0 +1,19 @@
+<view class="container login">
+    <view class='appLogo'>
+        <image bindtap="bindViewTap" class="userinfo-avatar" src="../../images/logo.jpg" background-size="cover"></image>
+    </view>
+    <form bindsubmit="formSubmit" bindreset="formReset">
+        <view class="input-section">
+			<text class="fa fa-user inputIcon"></text>
+            <input text type="text" placeholder='账号' />
+        </view>
+        <view class="input-section">
+            <text class="fa fa-lock inputIcon"></text>
+            <input password type="text" placeholder='密码' />
+        </view>
+        <button bindtap="login" class="send">登　陆</button>
+        <view>
+            <text bindtap="register" style="font-size:12px;float:right" class='a-link'>用户注册</text>
+        </view>
+    </form>
+</view>

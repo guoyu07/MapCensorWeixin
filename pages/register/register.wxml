@@ -1,0 +1,36 @@
+<view class="container register">
+    <form bindsubmit="formSubmit" bindreset="formReset">
+        <view class="input-section">
+			<text class="fa fa-user inputIcon"></text>
+            <input text type="text" placeholder='账号' />
+        </view>
+        <view class="input-section">
+            <text class="fa fa-tag inputIcon"></text>
+            <input password type="text" placeholder='全称' />
+        </view>
+		<view class="input-section">
+			<text class="fa fa-envelope-o inputIcon"></text>
+            <input password type="text" placeholder='邮箱' />
+        </view>
+        <view class="input-section">
+            <text class="fa fa-tablet inputIcon"></text>
+            <input text type="text" placeholder='电话' />
+        </view>
+		<view class="input-section">
+            <text class="fa fa-home inputIcon"></text>
+            <input password type="text" placeholder='公司' />
+        </view>
+		<view class="input-section">
+			<text class="fa fa-lock inputIcon"></text>
+            <input password type="text" placeholder='密码' />
+        </view>
+        <view class="input-section">
+            <text class="fa fa-key inputIcon"></text>
+            <input text type="text" placeholder='确认密码' />
+        </view>
+        <button bindtap="login" class="send">注　册</button>
+        <view>
+            <text bindtap="login" style="font-size:12px;float:right" class='a-link'>登陆</text>
+        </view>
+    </form>
+</view>
