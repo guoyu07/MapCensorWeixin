@@ -1,0 +1,10 @@
+.idea/
+.setting/
+.vscode
+*.log
+comments/
+node_modules/
+package-lock.json
+dist/
+prod/
+/yarn.lock
